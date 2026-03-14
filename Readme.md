@@ -75,7 +75,8 @@ Cosmic-SH is compiled into a standalone, console-free binary using PyInstaller.
 ### Windows Explorer Integration
 The executable is injected into the Windows Registry to provide native context-menu support.
 
-[Registry Structure]
+**[Registry Structure]**
+```text
 HKEY_CLASSES_ROOT
  └── Directory
       └── Background
@@ -85,3 +86,4 @@ HKEY_CLASSES_ROOT
                      ├── Icon      = "C:\Cosmic\cosmic.exe"
                      └── command
                           └── (Default) = "C:\Cosmic\cosmic.exe"
+```
