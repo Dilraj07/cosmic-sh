@@ -10,6 +10,7 @@ The environment is decoupled into two primary layers: the Command Line Engine (B
 
 ### Data Flow Visualization
 
+```text
 +-------------------+
 |  User Keystroke   |  (Frontend GUI)
 +-------------------+
@@ -46,6 +47,7 @@ to p2.stdin      File Descriptor
 +-------------------+
 |   GUI Renderer    |  (Displays on DPI-Aware Glassmorphism Window)
 +-------------------+
+```
 
 ## Core Features
 
